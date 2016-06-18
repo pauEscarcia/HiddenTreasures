@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<location>
+  <item>
+    <id>1957</id>
+    <name>United States</name>
+  </item>
+  <item>
+    <id>1952</id>
+    <name>Virginia  State</name>
+  </item>
+  <item>
+    <id>1947</id>
+    <name>Nevada State</name>
+  </item>
+  <item>
+    <id>1946</id>
+    <name>San Francisco</name>
+  </item>
+  <item>
+    <id>1945</id>
+    <name>Los Angeles</name>
+  </item>
+  <item>
+    <id>1944</id>
+    <name>California State</name>
+  </item>
+  <item>
+    <id>1680</id>
+    <name>France</name>
+  </item>
+  <item>
+    <id>287</id>
+    <name>Paris</name>
+  </item>
+  <item>
+    <id>286</id>
+    <name>Boston</name>
+  </item>
+  <item>
+    <id>285</id>
+    <name>Australia</name>
+  </item>
+  <item>
+    <id>284</id>
+    <name>Las Vegas</name>
+  </item>
+  <item>
+    <id>283</id>
+    <name>Marseille</name>
+  </item>
+  <item>
+    <id>282</id>
+    <name>Virginia Beach</name>
+  </item>
+  <item>
+    <id>281</id>
+    <name>Vietnam</name>
+  </item>
+  <item>
+    <id>280</id>
+    <name>Italy</name>
+  </item>
+  <item>
+    <id>279</id>
+    <name>Germany</name>
+  </item>
+  <item>
+    <id>277</id>
+    <name>Russia</name>
+  </item>
+  <item>
+    <id>276</id>
+    <name>Sydney</name>
+  </item>
+  <item>
+    <id>275</id>
+    <name>New York City</name>
+  </item>
+</location>

@@ -1,0 +1,2059 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Traveler Code\n"
+"POT-Creation-Date: 2015-03-24 18:30+0700\n"
+"PO-Revision-Date: 2015-03-24 18:30+0700\n"
+"Last-Translator: \n"
+"Language-Team: Shinetheme\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_n;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../importer/parsers.php:43 ../importer/parsers.php:75
+#: ../importer/parsers.php:83
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../importer/parsers.php:44
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../importer/parsers.php:87 ../importer/parsers.php:92
+#: ../importer/parsers.php:283 ../importer/parsers.php:474
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../importer/st.importer.php:281 ../update_taxonomy.php:101
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: ../importer/st.importer.php:317 ../update_taxonomy.php:137
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: ../importer/st.importer.php:334 ../update_taxonomy.php:154
+msgid "Site does not support widget"
+msgstr ""
+
+#: ../importer/st.importer.php:351 ../update_taxonomy.php:171
+msgid "Widget already exists"
+msgstr ""
+
+#: ../importer/st.importer.php:389 ../update_taxonomy.php:209
+msgid "Imported"
+msgstr ""
+
+#: ../importer/st.importer.php:392 ../update_taxonomy.php:212
+msgid "Imported to Inactive"
+msgstr ""
+
+#: ../importer/st.importer.php:397 ../update_taxonomy.php:217
+msgid "No Title"
+msgstr ""
+
+#: ../importer/st.init.php:88
+msgid "Easily import content by only one click"
+msgstr ""
+
+#: ../importer/st.init.php:90
+msgid "Import now"
+msgstr ""
+
+#: ../importer/st.init.php:91
+msgid "No import"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:134
+#: ../importer/wordpress-importer.php:143
+#: ../importer/wordpress-importer.php:194
+#: ../importer/wordpress-importer.php:198
+#: ../importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:425
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:465
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:511
+#: ../importer/wordpress-importer.php:652
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:537
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:559
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:618
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:783
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:790
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:853
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:866
+msgid "Invalid file type"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:910
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:916
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:923
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:928
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:934
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1033
+msgid "Import WordPress"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1040
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1055
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1056
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../inc/class.language.php:86
+msgid "Update translate successfully !"
+msgstr ""
+
+#: ../inc/class.language.php:91
+msgid "Update translate not successfully !"
+msgstr ""
+
+#: ../inc/class.language.php:136
+msgid "Create successfully !"
+msgstr ""
+
+#: ../inc/class.language.php:142
+msgid "Create not successfully !"
+msgstr ""
+
+#: ../inc/class.language.php:148
+msgid "Name existed !"
+msgstr ""
+
+#: ../inc/class.language.php:154
+msgid "Name empty !"
+msgstr ""
+
+#: ../inc/class.language.php:160
+msgid "Name only contains valid characters: a-z, A-Z, 0-9 , -"
+msgstr ""
+
+#: ../inc/class.language.php:190
+msgid "Delete : \""
+msgstr ""
+
+#: ../inc/class.language.php:222
+msgid "Set Language default : \""
+msgstr ""
+
+#: ../inc/language/add.php:3
+msgid "Add Language"
+msgstr ""
+
+#: ../inc/language/add.php:13 ../inc/language/show.php:43
+msgid "Name Language"
+msgstr ""
+
+#: ../inc/language/add.php:21 ../inc/language/show.php:44
+#: ../vc-elements/st-about-icon/st-about-icon.php:112
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:64
+#: ../vc-elements/st-testimonial/st-testimonial.php:65
+msgid "Description"
+msgstr ""
+
+#: ../inc/language/add.php:29
+msgid "Save"
+msgstr ""
+
+#: ../inc/language/add.php:30 ../inc/language/translate.php:43
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/language/list_file.php:3
+msgid "Language : "
+msgstr ""
+
+#: ../inc/language/list_file.php:18
+msgid "File Name"
+msgstr ""
+
+#: ../inc/language/list_file.php:19
+msgid "Url"
+msgstr ""
+
+#: ../inc/language/list_file.php:43 ../inc/language/translate.php:17
+msgid "Back"
+msgstr ""
+
+#: ../inc/language/show.php:3
+msgid "ST Language"
+msgstr ""
+
+#: ../inc/language/show.php:18
+msgid "Set Language default"
+msgstr ""
+
+#: ../inc/language/show.php:31
+msgid "Save Changes"
+msgstr ""
+
+#: ../inc/language/show.php:32 ../include/class.order.php:29
+#: ../widgets/st-search-activity/st-search-activity.php:194
+#: ../widgets/st-search-cars/st-search-cars.php:195
+#: ../widgets/st-search-hotel/st-search-hotel.php:195
+#: ../widgets/st-search-rental/st-search-rental.php:194
+#: ../widgets/st-search-tours/st-search-tours.php:186
+msgid "Add New"
+msgstr ""
+
+#: ../inc/language/show.php:56 ../inc/language/translate.php:27
+msgid "Translate"
+msgstr ""
+
+#: ../inc/language/show.php:59
+#: ../widgets/st-search-activity/st-search-activity.php:153
+#: ../widgets/st-search-cars/st-search-cars.php:153
+#: ../widgets/st-search-hotel/st-search-hotel.php:155
+#: ../widgets/st-search-rental/st-search-rental.php:154
+#: ../widgets/st-search-tours/st-search-tours.php:152
+msgid "Delete"
+msgstr ""
+
+#: ../inc/language/translate.php:3
+msgid "Edit Language : "
+msgstr ""
+
+#: ../inc/language/translate.php:6
+msgid "File : "
+msgstr ""
+
+#: ../inc/language/translate.php:25
+#: ../vc-elements/st-accordion/st-accordion.php:26
+#: ../vc-elements/st-cars-attribute/st-cars-attribute.php:28
+#: ../vc-elements/st-image-effect/st-image-effect.php:28
+#: ../vc-elements/st-image-effect/st-image-effect.php:67
+#: ../vc-elements/st-lightbox/st-lightbox.php:69
+#: ../vc-elements/st-promotion/st-promotion.php:55
+#: ../vc-elements/st-tab/st-tab.php:26
+#: ../vc-elements/st-text-slide/st-text-slide.php:14
+#: ../widgets/st-search-activity/st-search-activity.php:149
+#: ../widgets/st-search-cars/st-search-cars.php:149
+#: ../widgets/st-search-hotel/st-search-hotel.php:151
+#: ../widgets/st-search-rental/st-search-rental.php:150
+#: ../widgets/st-search-tours/st-search-tours.php:148
+msgid "Title"
+msgstr ""
+
+#: ../inc/language/translate.php:42
+msgid "Save Change"
+msgstr ""
+
+#: ../include/class.order.php:25 ../include/class.order.php:27
+msgid "Orders"
+msgstr ""
+
+#: ../include/class.order.php:26 ../include/class.order.php:28
+#: ../vc-elements/st-blog/st-blog.php:52
+#: ../vc-elements/st-list-activity/st-list-activity.php:35
+#: ../vc-elements/st-list-cars/st-list-cars.php:42
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:35
+#: ../vc-elements/st-list-location/st-list-location.php:97
+#: ../vc-elements/st-list-rental/st-list-rental.php:35
+#: ../vc-elements/st-list-tour/st-list-tour.php:36
+#: ../widgets/st-list-post/st-list-post.php:185
+msgid "Order"
+msgstr ""
+
+#: ../include/class.order.php:30
+msgid "Add New Order"
+msgstr ""
+
+#: ../include/class.order.php:31
+msgid "New Order"
+msgstr ""
+
+#: ../include/class.order.php:32
+msgid "Edit Order"
+msgstr ""
+
+#: ../include/class.order.php:33
+msgid "View Order"
+msgstr ""
+
+#: ../include/class.order.php:34
+msgid "All Orders"
+msgstr ""
+
+#: ../include/class.order.php:35
+msgid "Search Orders"
+msgstr ""
+
+#: ../include/class.order.php:36
+msgid "Parent Orders:"
+msgstr ""
+
+#: ../include/class.order.php:37
+msgid "No Orders found."
+msgstr ""
+
+#: ../include/class.order.php:38
+msgid "No Orders found in Trash."
+msgstr ""
+
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:373
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:420
+msgid "Remove"
+msgstr ""
+
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:386
+msgid "Add"
+msgstr ""
+
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:719
+msgid "Remove Image"
+msgstr ""
+
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:721
+msgid "Upload Image"
+msgstr ""
+
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:741
+msgid "Select a color"
+msgstr ""
+
+#: ../shortcodes/cars/cars.php:33 ../shortcodes/cars/cars.php:34
+msgid "none"
+msgstr ""
+
+#: ../shortcodes/cruise/cruise.php:83 ../shortcodes/hotel/hotel.php:108
+#: ../shortcodes/rental/rental.php:82
+msgid "Write a review"
+msgstr ""
+
+#: ../shortcodes/cruise/cruise.php:155 ../shortcodes/hotel/hotel.php:176
+#: ../shortcodes/rental/rental.php:151
+msgid "Change search"
+msgstr ""
+
+#: ../update_taxonomy.php:40
+msgid "Update OptionTree -> OK"
+msgstr ""
+
+#: ../update_taxonomy.php:46
+msgid "Add Taxonomy before import XML -> OK"
+msgstr ""
+
+#: ../update_taxonomy.php:52
+msgid "Update widget -> OK"
+msgstr ""
+
+#: ../update_taxonomy.php:68
+msgid "Add Taxonomy after import XML -> OK"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:3
+msgid "ST About Icon"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:12
+#: ../vc-elements/st-icon/st-icon.php:35
+#: ../vc-elements/st-image-effect/st-image-effect.php:26
+msgid "Icon"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:20
+#: ../vc-elements/st-icon/st-icon.php:43
+msgid "Color Icon"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:28
+#: ../vc-elements/st-icon/st-icon.php:51
+msgid "To Color Icon"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:37
+msgid "Position Icon"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:42
+#: ../vc-elements/st-icon/st-icon.php:26
+#: ../vc-elements/st-image-effect/st-image-effect.php:48
+msgid "Top"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:43
+#: ../vc-elements/st-about-icon/st-about-icon.php:69
+#: ../vc-elements/st-icon/st-icon.php:28 ../vc-elements/st-icon/st-icon.php:66
+#: ../vc-elements/st-list-location/st-list-location.php:75
+msgid "Left"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:44
+#: ../vc-elements/st-about-icon/st-about-icon.php:70
+#: ../vc-elements/st-icon/st-icon.php:29 ../vc-elements/st-icon/st-icon.php:67
+#: ../vc-elements/st-list-location/st-list-location.php:76
+msgid "Right"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:50
+#: ../vc-elements/st-icon/st-icon.php:74
+msgid "Size Icon"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:55
+#: ../vc-elements/st-button/st-button.php:52
+#: ../vc-elements/st-icon/st-icon.php:79
+#: ../vc-elements/st-search/st-search.php:17
+msgid "Small"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:56
+#: ../vc-elements/st-icon/st-icon.php:80
+msgid "Medium"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:57
+#: ../vc-elements/st-icon/st-icon.php:81
+msgid "Big"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:63
+msgid "Text Align"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:68
+#: ../vc-elements/st-icon/st-icon.php:68
+#: ../vc-elements/st-image-effect/st-image-effect.php:45
+#: ../vc-elements/st-team/st-team.php:54
+msgid "Center"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:76
+#: ../vc-elements/st-icon/st-icon.php:101
+msgid "Box icon border"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:81
+#: ../vc-elements/st-button/st-button.php:64
+#: ../vc-elements/st-icon/st-icon.php:25 ../vc-elements/st-icon/st-icon.php:65
+#: ../vc-elements/st-icon/st-icon.php:94
+#: ../vc-elements/st-icon/st-icon.php:106
+#: ../vc-elements/st-image-effect/st-image-effect.php:60
+#: ../vc-elements/st-list-activity/st-list-activity.php:63
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:78
+#: ../vc-elements/st-list-location/st-list-location.php:64
+#: ../vc-elements/st-list-tour/st-list-tour.php:77
+#: ../vc-elements/st-search/st-search.php:27
+#: ../vc-elements/st-single-search/st-single-search.php:59
+#: ../vc-elements/st-slide-location/st-slide-location.php:50
+#: ../vc-elements/st-testimonial/st-testimonial.php:44
+msgid "No"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:82
+#: ../vc-elements/st-button/st-button.php:65
+#: ../vc-elements/st-icon/st-icon.php:95
+#: ../vc-elements/st-image-effect/st-image-effect.php:61
+#: ../vc-elements/st-list-activity/st-list-activity.php:64
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:79
+#: ../vc-elements/st-list-location/st-list-location.php:63
+#: ../vc-elements/st-list-tour/st-list-tour.php:78
+#: ../vc-elements/st-search/st-search.php:28
+#: ../vc-elements/st-single-search/st-single-search.php:60
+#: ../vc-elements/st-slide-location/st-slide-location.php:49
+#: ../vc-elements/st-testimonial/st-testimonial.php:45
+msgid "Yes"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:88
+#: ../vc-elements/st-icon/st-icon.php:114
+msgid "Animation"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:98
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:50
+#: ../vc-elements/st-team/st-team.php:19
+#: ../vc-elements/st-testimonial/st-testimonial.php:51
+msgid "Name"
+msgstr ""
+
+#: ../vc-elements/st-about-icon/st-about-icon.php:105
+#: ../vc-elements/st-button/st-button.php:39
+#: ../vc-elements/st-promotion/st-promotion.php:71
+msgid "Link"
+msgstr ""
+
+#: ../vc-elements/st-accordion/st-accordion.php:4
+msgid "ST Accordion"
+msgstr ""
+
+#: ../vc-elements/st-accordion/st-accordion.php:17
+msgid "ST Accordion item"
+msgstr ""
+
+#: ../vc-elements/st-accordion/st-accordion.php:32
+#: ../vc-elements/st-tab/st-tab.php:32
+msgid "Content"
+msgstr ""
+
+#: ../vc-elements/st-activity-content-search/st-activity-content-search.php:3
+msgid "ST Activity Content Search "
+msgstr ""
+
+#: ../vc-elements/st-activity-content-search/st-activity-content-search.php:12
+#: ../vc-elements/st-activity-photo/st-activity-photo.php:18
+#: ../vc-elements/st-blog/st-blog.php:14
+#: ../vc-elements/st-cars-content-search/st-cars-content-search.php:18
+#: ../vc-elements/st-cars-price/st-cars-price.php:18
+#: ../vc-elements/st-cruise-photo/st-cruise-photo.php:18
+#: ../vc-elements/st-hotel-photo/st-hotel-photo.php:18
+#: ../vc-elements/st-rental-photo/st-rental-photo.php:18
+#: ../vc-elements/st-search/st-search.php:12
+#: ../vc-elements/st-single-search/st-single-search.php:44
+#: ../vc-elements/st-testimonial/st-testimonial.php:12
+#: ../vc-elements/st-tour-content-search/st-tour-content-search.php:18
+#: ../vc-elements/st-tour-photo/st-tour-photo.php:18
+msgid "Style"
+msgstr ""
+
+#: ../vc-elements/st-activity-content-search/st-activity-content-search.php:16
+#: ../vc-elements/st-cars-content-search/st-cars-content-search.php:22
+#: ../vc-elements/st-tour-content-search/st-tour-content-search.php:22
+msgid "Style 1 "
+msgstr ""
+
+#: ../vc-elements/st-activity-content-search/st-activity-content-search.php:17
+#: ../vc-elements/st-cars-content-search/st-cars-content-search.php:23
+#: ../vc-elements/st-tour-content-search/st-tour-content-search.php:23
+msgid "Style 2 "
+msgstr ""
+
+#: ../vc-elements/st-activity-photo/st-activity-photo.php:9
+msgid "ST Activity Detail Photo"
+msgstr ""
+
+#: ../vc-elements/st-activity-photo/st-activity-photo.php:22
+#: ../vc-elements/st-cruise-photo/st-cruise-photo.php:22
+#: ../vc-elements/st-hotel-photo/st-hotel-photo.php:22
+#: ../vc-elements/st-rental-photo/st-rental-photo.php:22
+#: ../vc-elements/st-tour-photo/st-tour-photo.php:22
+msgid "Slide"
+msgstr ""
+
+#: ../vc-elements/st-activity-photo/st-activity-photo.php:23
+#: ../vc-elements/st-cruise-photo/st-cruise-photo.php:23
+#: ../vc-elements/st-hotel-photo/st-hotel-photo.php:23
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:54
+#: ../vc-elements/st-rental-photo/st-rental-photo.php:23
+#: ../vc-elements/st-tour-photo/st-tour-photo.php:23
+msgid "Grid"
+msgstr ""
+
+#: ../vc-elements/st-alert/st-alert.php:3
+msgid "ST Alert"
+msgstr ""
+
+#: ../vc-elements/st-alert/st-alert.php:12
+msgid "Content Alert"
+msgstr ""
+
+#: ../vc-elements/st-alert/st-alert.php:20
+msgid "Type Alert"
+msgstr ""
+
+#: ../vc-elements/st-alert/st-alert.php:25
+#: ../vc-elements/st-button/st-button.php:35
+msgid "Success"
+msgstr ""
+
+#: ../vc-elements/st-alert/st-alert.php:26
+#: ../vc-elements/st-button/st-button.php:36
+msgid "Info"
+msgstr ""
+
+#: ../vc-elements/st-alert/st-alert.php:27
+#: ../vc-elements/st-button/st-button.php:37
+msgid "Warning"
+msgstr ""
+
+#: ../vc-elements/st-alert/st-alert.php:28
+#: ../vc-elements/st-button/st-button.php:38
+msgid "Danger"
+msgstr ""
+
+#: ../vc-elements/st-bg-gallery/st-bg-gallery.php:3
+msgid "ST Search with background gallery"
+msgstr ""
+
+#: ../vc-elements/st-bg-gallery/st-bg-gallery.php:12
+msgid "Images in"
+msgstr ""
+
+#: ../vc-elements/st-bg-gallery/st-bg-gallery.php:19
+#: ../vc-elements/st-gallery/st-gallery.php:67
+msgid "Images not in"
+msgstr ""
+
+#: ../vc-elements/st-bg-gallery/st-bg-gallery.php:26
+msgid "Effect Speed"
+msgstr ""
+
+#: ../vc-elements/st-bg-gallery/st-bg-gallery.php:28
+msgid "Example : 1200ms"
+msgstr ""
+
+#: ../vc-elements/st-bg-gallery/st-bg-gallery.php:35
+msgid "Columns"
+msgstr ""
+
+#: ../vc-elements/st-bg-gallery/st-bg-gallery.php:37
+msgid "Example : 8"
+msgstr ""
+
+#: ../vc-elements/st-bg-gallery/st-bg-gallery.php:44
+msgid "Rows"
+msgstr ""
+
+#: ../vc-elements/st-bg-gallery/st-bg-gallery.php:46
+msgid "Example : 4"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:5
+msgid "ST Blog"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:17
+msgid "Style one"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:18
+msgid "Style two"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:24
+msgid "Number post"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:27
+msgid "Post number"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:32
+msgid "Number post of row"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:35
+msgid "Number colums show in a row "
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:37
+#: ../vc-elements/st-gallery/st-gallery.php:42
+#: ../vc-elements/st-list-activity/st-list-activity.php:51
+#: ../vc-elements/st-list-cars/st-list-cars.php:59
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:66
+#: ../vc-elements/st-list-location/st-list-location.php:39
+#: ../vc-elements/st-list-rental/st-list-rental.php:52
+#: ../vc-elements/st-list-tour/st-list-tour.php:65
+msgid "Four"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:38
+#: ../vc-elements/st-gallery/st-gallery.php:43
+#: ../vc-elements/st-list-activity/st-list-activity.php:52
+#: ../vc-elements/st-list-cars/st-list-cars.php:60
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:67
+#: ../vc-elements/st-list-location/st-list-location.php:40
+#: ../vc-elements/st-list-rental/st-list-rental.php:53
+#: ../vc-elements/st-list-tour/st-list-tour.php:66
+msgid "Three"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:39
+#: ../vc-elements/st-gallery/st-gallery.php:44
+#: ../vc-elements/st-list-activity/st-list-activity.php:53
+#: ../vc-elements/st-list-cars/st-list-cars.php:61
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:68
+#: ../vc-elements/st-list-location/st-list-location.php:41
+#: ../vc-elements/st-list-rental/st-list-rental.php:54
+#: ../vc-elements/st-list-tour/st-list-tour.php:67
+msgid "Two"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:45
+msgid "Category"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:55
+#: ../vc-elements/st-list-activity/st-list-activity.php:38
+#: ../vc-elements/st-list-cars/st-list-cars.php:45
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:38
+#: ../vc-elements/st-list-location/st-list-location.php:100
+#: ../vc-elements/st-list-rental/st-list-rental.php:38
+#: ../vc-elements/st-list-tour/st-list-tour.php:39
+msgid "Asc"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:56
+#: ../vc-elements/st-list-activity/st-list-activity.php:39
+#: ../vc-elements/st-list-cars/st-list-cars.php:46
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:39
+#: ../vc-elements/st-list-location/st-list-location.php:101
+#: ../vc-elements/st-list-rental/st-list-rental.php:39
+#: ../vc-elements/st-list-tour/st-list-tour.php:40
+msgid "Desc"
+msgstr ""
+
+#: ../vc-elements/st-blog/st-blog.php:64
+#: ../vc-elements/st-list-activity/st-list-activity.php:20
+#: ../vc-elements/st-list-cars/st-list-cars.php:28
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:20
+#: ../vc-elements/st-list-location/st-list-location.php:82
+#: ../vc-elements/st-list-rental/st-list-rental.php:21
+#: ../vc-elements/st-list-tour/st-list-tour.php:20
+#: ../widgets/st-list-post/st-list-post.php:166
+msgid "Order By"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:3
+msgid "ST Button"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:12
+msgid "Text Button"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:20
+msgid "Link Buttons"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:28
+msgid "Type Button"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:33
+#: ../vc-elements/st-gallery/st-gallery.php:25
+#: ../vc-elements/st-lightbox/st-lightbox.php:30
+msgid "Default"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:34
+msgid "Primary"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:45
+msgid "Button Sizes"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:50
+#: ../vc-elements/st-icon/st-icon.php:107
+#: ../vc-elements/st-list-location/st-list-location.php:51
+#: ../vc-elements/st-single-search/st-single-search.php:49
+#: ../vc-elements/st-single-search/st-single-search.php:71
+msgid "Normal"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:51
+#: ../vc-elements/st-icon/st-icon.php:82
+#: ../vc-elements/st-search/st-search.php:16
+#: ../vc-elements/st-single-search/st-single-search.php:48
+#: ../vc-elements/st-single-search/st-single-search.php:70
+msgid "Large"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:53
+msgid "Extra small"
+msgstr ""
+
+#: ../vc-elements/st-button/st-button.php:59
+msgid "Ghost Buttons"
+msgstr ""
+
+#: ../vc-elements/st-cars-attribute/st-cars-attribute.php:11
+msgid "ST Cars Attribute"
+msgstr ""
+
+#: ../vc-elements/st-cars-attribute/st-cars-attribute.php:20
+#: ../vc-elements/st-hotel-attribute/st-hotel-attribute.php:20
+#: ../vc-elements/st-list-cars/st-list-cars.php:12
+#: ../vc-elements/st-rental-attribute/st-rental-attribute.php:20
+msgid "Select Taxonomy"
+msgstr ""
+
+#: ../vc-elements/st-cars-content-search/st-cars-content-search.php:9
+msgid "ST Cars Content Search "
+msgstr ""
+
+#: ../vc-elements/st-cars-price/st-cars-price.php:9
+msgid "ST Cars Price "
+msgstr ""
+
+#: ../vc-elements/st-cars-price/st-cars-price.php:22
+msgid "Style 1 column"
+msgstr ""
+
+#: ../vc-elements/st-cars-price/st-cars-price.php:23
+msgid "Style 2 column"
+msgstr ""
+
+#: ../vc-elements/st-cruise-photo/st-cruise-photo.php:9
+msgid "ST Cruise Photo"
+msgstr ""
+
+#: ../vc-elements/st-fickr/st-fickr.php:4
+msgid "ST Flickr"
+msgstr ""
+
+#: ../vc-elements/st-fickr/st-fickr.php:12
+#: ../vc-elements/st-list-activity/st-list-activity.php:12
+#: ../vc-elements/st-list-rental/st-list-rental.php:13
+#: ../vc-elements/st-twitter/st-twitter.php:12
+msgid "Number"
+msgstr ""
+
+#: ../vc-elements/st-fickr/st-fickr.php:18
+msgid "User"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:3
+msgid "ST Gallery"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:12
+msgid "Number images"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:20
+#: ../vc-elements/st-lightbox/st-lightbox.php:25
+msgid "Animation effects"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:26
+#: ../vc-elements/st-lightbox/st-lightbox.php:31
+msgid "Zoom out"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:27
+#: ../vc-elements/st-lightbox/st-lightbox.php:32
+msgid "Zoom in"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:28
+#: ../vc-elements/st-lightbox/st-lightbox.php:33
+msgid "Fade"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:29
+#: ../vc-elements/st-lightbox/st-lightbox.php:34
+msgid "Move horizontal"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:30
+#: ../vc-elements/st-lightbox/st-lightbox.php:35
+msgid "Move from top"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:31
+#: ../vc-elements/st-lightbox/st-lightbox.php:36
+msgid "Newspaper"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:32
+#: ../vc-elements/st-lightbox/st-lightbox.php:37
+msgid "3D unfold"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:38
+msgid "Number Columns"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:50
+#: ../vc-elements/st-lightbox/st-lightbox.php:43
+msgid "Icon hover"
+msgstr ""
+
+#: ../vc-elements/st-gallery/st-gallery.php:59
+msgid "List Image"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:3
+msgid "ST Gird"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:12
+msgid "Color"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:21
+msgid "Size"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:26
+msgid "col-1"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:27
+msgid "col-2"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:28
+msgid "col-3"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:29
+msgid "col-4"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:30
+msgid "col-5"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:31
+msgid "col-6"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:32
+msgid "col-7"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:33
+msgid "col-8"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:34
+msgid "col-9"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:35
+msgid "col-10"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:36
+msgid "col-11"
+msgstr ""
+
+#: ../vc-elements/st-gird/st-gird.php:37
+msgid "col-12"
+msgstr ""
+
+#: ../vc-elements/st-hotel-attribute/st-hotel-attribute.php:11
+msgid "ST Hotel Detail Attribute"
+msgstr ""
+
+#: ../vc-elements/st-hotel-attribute/st-hotel-attribute.php:28
+#: ../vc-elements/st-rental-attribute/st-rental-attribute.php:28
+msgid "Item Size"
+msgstr ""
+
+#: ../vc-elements/st-hotel-photo/st-hotel-photo.php:9
+msgid "ST Hotel Detail Photo"
+msgstr ""
+
+#: ../vc-elements/st-icon/st-icon.php:3
+msgid "ST Icon"
+msgstr ""
+
+#: ../vc-elements/st-icon/st-icon.php:12
+msgid "Tooltip"
+msgstr ""
+
+#: ../vc-elements/st-icon/st-icon.php:20
+msgid "Position Tooltip"
+msgstr ""
+
+#: ../vc-elements/st-icon/st-icon.php:27
+#: ../vc-elements/st-image-effect/st-image-effect.php:49
+msgid "Bottom"
+msgstr ""
+
+#: ../vc-elements/st-icon/st-icon.php:60
+msgid "Aligment"
+msgstr ""
+
+#: ../vc-elements/st-icon/st-icon.php:83
+msgid "Huge"
+msgstr ""
+
+#: ../vc-elements/st-icon/st-icon.php:89
+msgid "Round Icon"
+msgstr ""
+
+#: ../vc-elements/st-icon/st-icon.php:108
+msgid "Dashed"
+msgstr ""
+
+#: ../vc-elements/st-icon/st-icon.php:116
+msgid "http://daneden.github.io/animate.css/"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:3
+msgid "ST Image Effect"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:12
+#: ../vc-elements/st-lightbox/st-lightbox.php:52
+msgid "image"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:20
+msgid "Type Hover"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:25
+msgid "Simple Hover"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:27
+#: ../vc-elements/st-image-effect/st-image-effect.php:83
+msgid "Icon Group"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:29
+msgid "Inner Full"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:30
+msgid "Inner Block"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:36
+msgid "Position Layout"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:41
+#: ../vc-elements/st-team/st-team.php:50
+msgid "Top Left"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:42
+#: ../vc-elements/st-team/st-team.php:51
+msgid "Top Right"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:43
+#: ../vc-elements/st-team/st-team.php:52
+msgid "Bottom Left"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:44
+#: ../vc-elements/st-team/st-team.php:53
+msgid "Bottom Right"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:46
+#: ../vc-elements/st-team/st-team.php:55
+msgid "Center Top"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:47
+#: ../vc-elements/st-team/st-team.php:56
+msgid "Center Bottom"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:55
+msgid "Hover Hold"
+msgstr ""
+
+#: ../vc-elements/st-image-effect/st-image-effect.php:75
+msgid "Class Icon"
+msgstr ""
+
+#: ../vc-elements/st-lightbox/st-lightbox.php:3
+msgid "ST Lightbox"
+msgstr ""
+
+#: ../vc-elements/st-lightbox/st-lightbox.php:12
+msgid "Type Lightbox"
+msgstr ""
+
+#: ../vc-elements/st-lightbox/st-lightbox.php:17
+msgid "Image"
+msgstr ""
+
+#: ../vc-elements/st-lightbox/st-lightbox.php:18
+msgid "Iframe"
+msgstr ""
+
+#: ../vc-elements/st-lightbox/st-lightbox.php:19
+msgid "HTML"
+msgstr ""
+
+#: ../vc-elements/st-lightbox/st-lightbox.php:60
+msgid "Link Iframe"
+msgstr ""
+
+#: ../vc-elements/st-lightbox/st-lightbox.php:78
+msgid "Content html"
+msgstr ""
+
+#: ../vc-elements/st-list-activity/loop.php:64
+msgid "person"
+msgstr ""
+
+#: ../vc-elements/st-list-activity/st-list-activity.php:3
+msgid "ST List Activity"
+msgstr ""
+
+#: ../vc-elements/st-list-activity/st-list-activity.php:26
+#: ../vc-elements/st-list-tour/loop.php:69
+#: ../vc-elements/st-list-tour/loop2.php:53
+#: ../vc-elements/st-list-tour/loop3.php:60
+#: ../vc-elements/st-list-tour/st-list-tour.php:26
+#: ../widgets/st-search-activity/st-search-activity.php:143
+#: ../widgets/st-search-cars/st-search-cars.php:144
+#: ../widgets/st-search-hotel/st-search-hotel.php:144
+#: ../widgets/st-search-rental/st-search-rental.php:144
+#: ../widgets/st-search-tours/st-search-tours.php:142
+msgid "Price"
+msgstr ""
+
+#: ../vc-elements/st-list-activity/st-list-activity.php:27
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:27
+#: ../vc-elements/st-list-location/st-list-location.php:89
+#: ../vc-elements/st-list-tour/st-list-tour.php:27
+#: ../widgets/st-search-activity/st-search-activity.php:144
+#: ../widgets/st-search-rental/st-search-rental.php:145
+#: ../widgets/st-search-tours/st-search-tours.php:143
+msgid "Rate"
+msgstr ""
+
+#: ../vc-elements/st-list-activity/st-list-activity.php:28
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:28
+#: ../vc-elements/st-list-tour/st-list-tour.php:28
+#: ../vc-elements/st-promotion/st-promotion.php:21
+msgid "Discount"
+msgstr ""
+
+#: ../vc-elements/st-list-activity/st-list-activity.php:47
+#: ../vc-elements/st-list-rental/st-list-rental.php:47
+msgid "Number of row"
+msgstr ""
+
+#: ../vc-elements/st-list-activity/st-list-activity.php:59
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:74
+#: ../vc-elements/st-list-tour/st-list-tour.php:73
+msgid "Only in Featured Location"
+msgstr ""
+
+#: ../vc-elements/st-list-cars/st-list-cars.php:3
+msgid "ST List Cars"
+msgstr ""
+
+#: ../vc-elements/st-list-cars/st-list-cars.php:20
+msgid "Number cars"
+msgstr ""
+
+#: ../vc-elements/st-list-cars/st-list-cars.php:34
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:26
+#: ../vc-elements/st-list-location/st-list-location.php:88
+#: ../vc-elements/st-list-rental/st-list-rental.php:27
+msgid "Sale"
+msgstr ""
+
+#: ../vc-elements/st-list-cars/st-list-cars.php:35
+#: ../vc-elements/st-list-rental/st-list-rental.php:28
+msgid "Featured"
+msgstr ""
+
+#: ../vc-elements/st-list-cars/st-list-cars.php:54
+msgid "Number Car of row"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/loop-grid.php:25
+msgid "no review"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/loop-grid.php:25
+msgid "1 review"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/loop-grid.php:25
+msgid "% reviews"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/loop-grid.php:33
+#, php-format
+msgid "%s offer"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/loop-grid.php:34
+#, php-format
+msgid " from %s"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/loop-grid2.php:24
+#: ../vc-elements/st-list-hotel/loop-last_minute_deals.php:19
+#: ../vc-elements/st-list-rental/loop-list.php:23
+#: ../vc-elements/st-list-tour/loop3.php:73
+msgid "Book Now"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/loop-grid2.php:41
+msgid "avg/night"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/loop-hot-deals.php:32
+#: ../vc-elements/st-list-location/loop-normal.php:44
+#: ../vc-elements/st-list-tour/loop4.php:32
+msgid "from"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/loop-last_minute_deals.php:42
+msgid "avg"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/loop-last_minute_deals.php:42
+#: ../vc-elements/st-list-rental/loop-list.php:67
+msgid "night"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:3
+msgid "ST List Hotel"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:12
+msgid "Number hotel"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:47
+#: ../vc-elements/st-list-tour/st-list-tour.php:48
+msgid "Style hotel"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:51
+msgid "BG Last Minute Deal"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:52
+msgid "Last Minute Deals"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:53
+msgid "Hot Deals"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:55
+msgid "Grid Style 2"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:61
+msgid "Number Hotel of row"
+msgstr ""
+
+#: ../vc-elements/st-list-hotel/st-list-hotel.php:64
+msgid ""
+"Noticed: the field \"Number Hotel of row\" only applicable to \"Last Minute "
+"Deal\" style"
+msgstr ""
+
+#: ../vc-elements/st-list-location/loop-normal.php:37
+msgid "reviews"
+msgstr ""
+
+#: ../vc-elements/st-list-location/loop-normal.php:37
+msgid "review"
+msgstr ""
+
+#: ../vc-elements/st-list-location/loop-normal.php:43
+msgid "offers"
+msgstr ""
+
+#: ../vc-elements/st-list-location/loop-normal.php:43
+msgid "offer"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:3
+msgid "ST List Location"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:12
+#: ../vc-elements/st-map/st-map.php:14
+#: ../vc-elements/st-simple-location/st-simple-location.php:12
+#: ../vc-elements/st-slide-location/st-slide-location.php:12
+msgid "Type"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:16
+#: ../vc-elements/st-simple-location/st-simple-location.php:16
+#: ../vc-elements/st-single-search/st-single-search.php:23
+#: ../vc-elements/st-slide-location/st-slide-location.php:16
+msgid "Hotel"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:17
+#: ../vc-elements/st-simple-location/st-simple-location.php:17
+#: ../vc-elements/st-slide-location/st-slide-location.php:17
+msgid "Car"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:18
+#: ../vc-elements/st-simple-location/st-simple-location.php:18
+#: ../vc-elements/st-slide-location/st-slide-location.php:18
+msgid "Tour"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:19
+#: ../vc-elements/st-simple-location/st-simple-location.php:19
+#: ../vc-elements/st-single-search/st-single-search.php:24
+#: ../vc-elements/st-slide-location/st-slide-location.php:19
+msgid "Rental"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:20
+#: ../vc-elements/st-simple-location/st-simple-location.php:20
+#: ../vc-elements/st-single-search/st-single-search.php:26
+#: ../vc-elements/st-slide-location/st-slide-location.php:20
+msgid "Activities"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:27
+msgid "Number Location"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:35
+msgid "Items per row"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:47
+msgid "Style location"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:52
+msgid "Curved"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:58
+msgid "Show Logo"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:70
+msgid "Logo Position"
+msgstr ""
+
+#: ../vc-elements/st-list-location/st-list-location.php:90
+msgid "Min Price"
+msgstr ""
+
+#: ../vc-elements/st-list-rental/st-list-rental.php:3
+msgid "ST List Rental"
+msgstr ""
+
+#: ../vc-elements/st-list-tour/st-list-tour.php:3
+msgid "ST List Tour"
+msgstr ""
+
+#: ../vc-elements/st-list-tour/st-list-tour.php:12
+msgid "Number tour"
+msgstr ""
+
+#: ../vc-elements/st-list-tour/st-list-tour.php:29
+msgid "Last Minute Deal"
+msgstr ""
+
+#: ../vc-elements/st-list-tour/st-list-tour.php:52
+msgid "Style 1"
+msgstr ""
+
+#: ../vc-elements/st-list-tour/st-list-tour.php:53
+msgid "Style 2"
+msgstr ""
+
+#: ../vc-elements/st-list-tour/st-list-tour.php:54
+msgid "Style 3"
+msgstr ""
+
+#: ../vc-elements/st-list-tour/st-list-tour.php:55
+msgid "Style 4"
+msgstr ""
+
+#: ../vc-elements/st-list-tour/st-list-tour.php:61
+msgid "Number tour of row"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:4
+msgid "ST Google Map"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:17
+msgid "Use Address"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:18
+msgid "User Latitude and Longitude"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:20
+msgid "Address or using Latitude and Longitude"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:26 ../vc-elements/st-map/st-map.php:29
+msgid "Address"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:35
+msgid "Latitude"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:38
+msgid ""
+"Latitude, you can get it from  <a target='_blank' href='http://www.latlong."
+"net/convert-address-to-lat-long.html'>here</a>"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:44 ../vc-elements/st-map/st-map.php:47
+msgid "Longitude"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:53
+msgid "Lightness"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:56
+msgid ""
+"(a floating point value between -100 and 100) indicates the percentage "
+"change in brightness of the element."
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:62
+msgid "Saturation"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:70
+msgid "Gamma"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:78
+msgid "Zoom"
+msgstr ""
+
+#: ../vc-elements/st-map/st-map.php:86 ../vc-elements/st-map/st-map.php:89
+msgid "Custom Marker Icon"
+msgstr ""
+
+#: ../vc-elements/st-promotion/html.php:22
+msgid "Off"
+msgstr ""
+
+#: ../vc-elements/st-promotion/st-promotion.php:3
+msgid "ST Promotion"
+msgstr ""
+
+#: ../vc-elements/st-promotion/st-promotion.php:12
+msgid "Icon "
+msgstr ""
+
+#: ../vc-elements/st-promotion/st-promotion.php:29
+msgid "Background Image"
+msgstr ""
+
+#: ../vc-elements/st-promotion/st-promotion.php:37
+msgid "Background Color"
+msgstr ""
+
+#: ../vc-elements/st-promotion/st-promotion.php:46
+msgid "Opacity"
+msgstr ""
+
+#: ../vc-elements/st-promotion/st-promotion.php:48
+msgid "Opacity : 0-100"
+msgstr ""
+
+#: ../vc-elements/st-promotion/st-promotion.php:63
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:57
+#: ../vc-elements/st-testimonial/st-testimonial.php:58
+msgid "Sub"
+msgstr ""
+
+#: ../vc-elements/st-rental-attribute/st-rental-attribute.php:11
+msgid "ST Rental Attribute"
+msgstr ""
+
+#: ../vc-elements/st-rental-photo/st-rental-photo.php:9
+msgid "ST Rental Photo"
+msgstr ""
+
+#: ../vc-elements/st-search/st-search.php:3
+msgid "ST Search"
+msgstr ""
+
+#: ../vc-elements/st-search/st-search.php:23
+#: ../vc-elements/st-single-search/st-single-search.php:55
+msgid "Show box shadow"
+msgstr ""
+
+#: ../vc-elements/st-simple-location/st-simple-location.php:3
+msgid "ST Simple Location"
+msgstr ""
+
+#: ../vc-elements/st-simple-location/st-simple-location.php:27
+#: ../vc-elements/st-slide-location/st-slide-location.php:27
+msgid "Select Location "
+msgstr ""
+
+#: ../vc-elements/st-single-search/st-single-search.php:3
+msgid "ST Single Search"
+msgstr ""
+
+#: ../vc-elements/st-single-search/st-single-search.php:12
+msgid "Title form search"
+msgstr ""
+
+#: ../vc-elements/st-single-search/st-single-search.php:19
+msgid "Select form search"
+msgstr ""
+
+#: ../vc-elements/st-single-search/st-single-search.php:25
+msgid "Cars"
+msgstr ""
+
+#: ../vc-elements/st-single-search/st-single-search.php:27
+msgid "Tours"
+msgstr ""
+
+#: ../vc-elements/st-single-search/st-single-search.php:33
+msgid "Form's direction"
+msgstr ""
+
+#: ../vc-elements/st-single-search/st-single-search.php:37
+msgid "Vertical form"
+msgstr ""
+
+#: ../vc-elements/st-single-search/st-single-search.php:38
+msgid "Horizontal form"
+msgstr ""
+
+#: ../vc-elements/st-single-search/st-single-search.php:66
+msgid "Field Size"
+msgstr ""
+
+#: ../vc-elements/st-slide-location/st-slide-location.php:3
+msgid "ST Slide Location"
+msgstr ""
+
+#: ../vc-elements/st-slide-location/st-slide-location.php:34
+msgid "Style show "
+msgstr ""
+
+#: ../vc-elements/st-slide-location/st-slide-location.php:38
+msgid "Text info center"
+msgstr ""
+
+#: ../vc-elements/st-slide-location/st-slide-location.php:39
+msgid "Show box find"
+msgstr ""
+
+#: ../vc-elements/st-slide-location/st-slide-location.php:45
+msgid "Weather show "
+msgstr ""
+
+#: ../vc-elements/st-slide-location/st-slide-location.php:56
+msgid "Height"
+msgstr ""
+
+#: ../vc-elements/st-slide-location/st-slide-location.php:60
+msgid "Full height"
+msgstr ""
+
+#: ../vc-elements/st-slide-location/st-slide-location.php:61
+msgid "Half height"
+msgstr ""
+
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:4
+msgid "ST Slide Testimonial"
+msgstr ""
+
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:16
+msgid "Speed"
+msgstr ""
+
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:18
+msgid "Ex : 500ms"
+msgstr ""
+
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:24
+msgid "Auto Play Time"
+msgstr ""
+
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:26
+msgid "Set 0 to turn off autoplay"
+msgstr ""
+
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:34
+msgid "Testimonial Item"
+msgstr ""
+
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:43
+#: ../vc-elements/st-team/st-team.php:12
+#: ../vc-elements/st-testimonial/st-testimonial.php:23
+msgid "Avatar"
+msgstr ""
+
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:71
+#: ../vc-elements/st-text-slide/st-text-slide.php:24
+msgid "Background"
+msgstr ""
+
+#: ../vc-elements/st-slide-testimonial/st-slide-testimonial.php:78
+#: ../vc-elements/st-team/st-team.php:26
+msgid "Position"
+msgstr ""
+
+#: ../vc-elements/st-tab/st-tab.php:4
+msgid "ST Tab"
+msgstr ""
+
+#: ../vc-elements/st-tab/st-tab.php:17
+msgid "ST Tab item"
+msgstr ""
+
+#: ../vc-elements/st-team/st-team.php:3
+msgid "ST Team"
+msgstr ""
+
+#: ../vc-elements/st-team/st-team.php:33
+msgid "Social Effect "
+msgstr ""
+
+#: ../vc-elements/st-team/st-team.php:38
+msgid "Hover"
+msgstr ""
+
+#: ../vc-elements/st-team/st-team.php:39
+msgid "Hold"
+msgstr ""
+
+#: ../vc-elements/st-team/st-team.php:45
+msgid "Position Social"
+msgstr ""
+
+#: ../vc-elements/st-team/st-team.php:62
+msgid "Facebook"
+msgstr ""
+
+#: ../vc-elements/st-team/st-team.php:69
+msgid "Twitter"
+msgstr ""
+
+#: ../vc-elements/st-team/st-team.php:76
+msgid "Google Plus"
+msgstr ""
+
+#: ../vc-elements/st-team/st-team.php:83
+msgid "Other Social Link"
+msgstr ""
+
+#: ../vc-elements/st-testimonial/st-testimonial.php:3
+msgid "ST Testimonial"
+msgstr ""
+
+#: ../vc-elements/st-testimonial/st-testimonial.php:31
+msgid "Text Color"
+msgstr ""
+
+#: ../vc-elements/st-testimonial/st-testimonial.php:39
+msgid "Testimonial color"
+msgstr ""
+
+#: ../vc-elements/st-text-slide/st-text-slide.php:3
+msgid "ST Text Slide"
+msgstr ""
+
+#: ../vc-elements/st-text-slide/st-text-slide.php:19
+msgid "HTML Code"
+msgstr ""
+
+#: ../vc-elements/st-tour-content-search/st-tour-content-search.php:9
+msgid "ST Tour Content Search "
+msgstr ""
+
+#: ../vc-elements/st-tour-photo/st-tour-photo.php:9
+msgid "ST Tour Detail Photo"
+msgstr ""
+
+#: ../vc-elements/st-twitter/st-twitter.php:4
+msgid "ST Twitter"
+msgstr ""
+
+#: ../vc-elements/st-twitter/st-twitter.php:18
+msgid "User Twitter"
+msgstr ""
+
+#: ../vc-elements/st-twitter/st-twitter.php:24
+msgid "Color text"
+msgstr ""
+
+#: ../widgets/st-custom-menu/st-custom-menu.php:5
+msgid "Add a custom menu to your sidebar."
+msgstr ""
+
+#: ../widgets/st-custom-menu/st-custom-menu.php:6
+msgid "ST Custom Menu"
+msgstr ""
+
+#: ../widgets/st-custom-menu/st-custom-menu.php:54
+#, php-format
+msgid "No menus have been created yet. <a href=\"%s\">Create some</a>."
+msgstr ""
+
+#: ../widgets/st-custom-menu/st-custom-menu.php:59
+#: ../widgets/st-gallery/st-gallery.php:131
+#: ../widgets/st-list-post/st-list-post.php:156
+#: ../widgets/st-recent-comment/st-recent-comment.php:157
+#: ../widgets/st-search-activity/st-search-activity.php:176
+#: ../widgets/st-search-cars/st-search-cars.php:177
+#: ../widgets/st-search-hotel/st-search-hotel.php:171
+#: ../widgets/st-search-rental/st-search-rental.php:170
+#: ../widgets/st-search-tours/st-search-tours.php:168
+#: ../widgets/twitter_widget/twitter_widget.php:92
+msgid "Title:"
+msgstr ""
+
+#: ../widgets/st-custom-menu/st-custom-menu.php:63
+msgid "Select Menu:"
+msgstr ""
+
+#: ../widgets/st-custom-menu/st-custom-menu.php:65
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: ../widgets/st-gallery/st-gallery.php:13
+msgid "Your site&#8217;s list gallery."
+msgstr ""
+
+#: ../widgets/st-gallery/st-gallery.php:14
+msgid "ST List Gallery"
+msgstr ""
+
+#: ../widgets/st-gallery/st-gallery.php:45
+#: ../widgets/st-list-post/st-list-post.php:45
+msgid "Recent Posts"
+msgstr ""
+
+#: ../widgets/st-gallery/st-gallery.php:134
+msgid "Number of Image to show:"
+msgstr ""
+
+#: ../widgets/st-list-post/st-list-post.php:13
+msgid "Your site&#8217;s list posts."
+msgstr ""
+
+#: ../widgets/st-list-post/st-list-post.php:14
+msgid "ST List Posts"
+msgstr ""
+
+#: ../widgets/st-list-post/st-list-post.php:159
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../widgets/st-list-post/st-list-post.php:163
+msgid "Display post date?"
+msgstr ""
+
+#: ../widgets/st-list-post/st-list-post.php:168
+msgid "Views Count"
+msgstr ""
+
+#: ../widgets/st-list-post/st-list-post.php:187
+msgid "ASC"
+msgstr ""
+
+#: ../widgets/st-list-post/st-list-post.php:188
+msgid "DESC"
+msgstr ""
+
+#: ../widgets/st-recent-comment/st-recent-comment.php:11
+msgid "ST Recent Comments"
+msgstr ""
+
+#: ../widgets/st-recent-comment/st-recent-comment.php:65
+msgid "Recent Comments"
+msgstr ""
+
+#: ../widgets/st-recent-comment/st-recent-comment.php:109
+msgid " ago"
+msgstr ""
+
+#: ../widgets/st-recent-comment/st-recent-comment.php:111
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../widgets/st-recent-comment/st-recent-comment.php:160
+msgid "Number of comments to show:"
+msgstr ""
+
+#: ../widgets/st-search-activity/st-search-activity.php:13
+msgid "Activity Filter Box"
+msgstr ""
+
+#: ../widgets/st-search-activity/st-search-activity.php:14
+msgid "ST Activity Filter Box"
+msgstr ""
+
+#: ../widgets/st-search-activity/st-search-activity.php:145
+#: ../widgets/st-search-activity/st-search-activity.php:152
+#: ../widgets/st-search-cars/st-search-cars.php:145
+#: ../widgets/st-search-cars/st-search-cars.php:152
+#: ../widgets/st-search-hotel/st-search-hotel.php:147
+#: ../widgets/st-search-hotel/st-search-hotel.php:154
+#: ../widgets/st-search-rental/st-search-rental.php:146
+#: ../widgets/st-search-rental/st-search-rental.php:153
+#: ../widgets/st-search-tours/st-search-tours.php:144
+#: ../widgets/st-search-tours/st-search-tours.php:151
+msgid "Taxonomy"
+msgstr ""
+
+#: ../widgets/st-search-activity/st-search-activity.php:151
+#: ../widgets/st-search-cars/st-search-cars.php:151
+#: ../widgets/st-search-hotel/st-search-hotel.php:153
+#: ../widgets/st-search-rental/st-search-rental.php:152
+#: ../widgets/st-search-tours/st-search-tours.php:150
+msgid "Field"
+msgstr ""
+
+#: ../widgets/st-search-activity/st-search-activity.php:169
+#: ../widgets/st-search-cars/st-search-cars.php:169
+#: ../widgets/st-search-hotel/st-search-hotel.php:173
+#: ../widgets/st-search-rental/st-search-rental.php:172
+msgid "Style:"
+msgstr ""
+
+#: ../widgets/st-search-activity/st-search-activity.php:172
+#: ../widgets/st-search-hotel/st-search-hotel.php:176
+#: ../widgets/st-search-rental/st-search-rental.php:175
+msgid "Light"
+msgstr ""
+
+#: ../widgets/st-search-activity/st-search-activity.php:173
+#: ../widgets/st-search-hotel/st-search-hotel.php:175
+#: ../widgets/st-search-rental/st-search-rental.php:174
+msgid "Dark"
+msgstr ""
+
+#: ../widgets/st-search-activity/st-search-activity.php:195
+#: ../widgets/st-search-cars/st-search-cars.php:196
+#: ../widgets/st-search-hotel/st-search-hotel.php:196
+#: ../widgets/st-search-rental/st-search-rental.php:195
+#: ../widgets/st-search-tours/st-search-tours.php:187
+msgid "Save List"
+msgstr ""
+
+#: ../widgets/st-search-activity/st-search-activity.php:198
+#: ../widgets/st-search-hotel/st-search-hotel.php:199
+#: ../widgets/st-search-rental/st-search-rental.php:198
+#: ../widgets/st-search-tours/st-search-tours.php:190
+msgid "Attribute:"
+msgstr ""
+
+#: ../widgets/st-search-cars/st-search-cars.php:13
+msgid "Cars Filter Box"
+msgstr ""
+
+#: ../widgets/st-search-cars/st-search-cars.php:14
+msgid "ST Cars Filter Box"
+msgstr ""
+
+#: ../widgets/st-search-hotel/st-search-hotel.php:13
+msgid "Hotel Filter Box"
+msgstr ""
+
+#: ../widgets/st-search-hotel/st-search-hotel.php:14
+msgid "ST Hotel Filter Box"
+msgstr ""
+
+#: ../widgets/st-search-hotel/st-search-hotel.php:145
+msgid "Star Rating"
+msgstr ""
+
+#: ../widgets/st-search-hotel/st-search-hotel.php:146
+msgid "Review Score"
+msgstr ""
+
+#: ../widgets/st-search-rental/st-search-rental.php:13
+msgid "rental Filter Box"
+msgstr ""
+
+#: ../widgets/st-search-rental/st-search-rental.php:14
+msgid "ST Rental Filter Box"
+msgstr ""
+
+#: ../widgets/st-search-tours/st-search-tours.php:13
+msgid "Tour Filter Box"
+msgstr ""
+
+#: ../widgets/st-search-tours/st-search-tours.php:14
+msgid "ST Tour Filter Box"
+msgstr ""
+
+#: ../widgets/twitter_widget/class-wp-twitter-api.php:68
+msgid "Can't get the bearer token, check your credentials"
+msgstr ""
+
+#: ../widgets/twitter_widget/class-wp-twitter-api.php:124
+msgid "Bearer Token is good, check your query"
+msgstr ""
+
+#: ../widgets/twitter_widget/twitter_widget.php:96
+msgid "Twitter User:"
+msgstr ""
+
+#: ../widgets/twitter_widget/twitter_widget.php:100
+msgid "Number of Tweet (default is 5):"
+msgstr ""
